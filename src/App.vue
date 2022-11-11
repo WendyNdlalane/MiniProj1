@@ -1,15 +1,19 @@
-<template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<template>'
+<div id="app">
+  <Curriculum_Vitais />
+</div>
+
+
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Curriculum_Vitais from './components/Curriculum_Vitais.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Curriculum_Vitais
   }
 }
 </script>
@@ -23,4 +27,11 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+
+
+
+
+
+
 </style>
